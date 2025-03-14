@@ -1,21 +1,11 @@
-var girl = 143;
-var boy = 123;
+var love = prompt("Please Enter 143");
+var you = 143;
 
 
-
-while (girl == 143){
-
-    girl = prompt("Enter The Secret Code:");
-
-
-    if (boy == 123 || girl == 143 ){
-        alert("I hate You")
-    }
-
-
-
-
-
-
+if (love < you){
+    alert("Please Love Enter 143");
+} else if (love = you){
+    alert("I LOVE YOU SO MUCH");
+} else{
+    alert("wrong number");
 }
-
